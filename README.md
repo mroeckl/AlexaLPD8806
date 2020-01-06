@@ -23,7 +23,8 @@ Change intensity: Alexa, brighten &lt;name&gt; to 60%
 
 # Arduino IDE
 ## Configuration
-![Layout not found](https://raw.githubusercontent.com/mroeckl/AlexaLPD8806/master/Arduino-IDE-Config.png)
+<img src="https://raw.githubusercontent.com/mroeckl/AlexaLPD8806/master/Arduino-IDE-Config.png" width="200px">
+
 ## Programming
 Write the [AlexaLPD8806.ino](https://raw.githubusercontent.com/mroeckl/AlexaLPD8806/master/AlexaLPD8806.ino) file to the ESP8266.
 
