@@ -1,5 +1,5 @@
 /*
- * This is a basic example on how to use Espalexa and its device declaration methods.
+ * Alexa control for LPD8806 LED strip.
  */ 
 #ifdef ARDUINO_ARCH_ESP32
 #include <WiFi.h>
@@ -76,11 +76,6 @@ void loop()
 
 //our callback functions
 void lightChanged(EspalexaDevice* d) {
-    Serial.print("Device 1 changed to ");
-    
-    //do what you need to do here
-
-    //EXAMPLE
     if (d == nullptr) return;
 
     if (d->getId() == 0) { //device "delta"
